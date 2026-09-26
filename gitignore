@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# Outputs
+outputs/*.pth
+outputs/*.pt
+outputs/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Tests
+.pytest_cache/
+.coverage

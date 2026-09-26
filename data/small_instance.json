@@ -1,0 +1,772 @@
+{
+  "name": "minelib_small",
+  "n_blocks": 48,
+  "n_benches": 3,
+  "n_rows": 4,
+  "n_cols": 4,
+  "n_periods": 3,
+  "capacity_tonnes": 7952.6,
+  "discount_rate": 0.1,
+  "blocks": [
+    {
+      "id": 0,
+      "bench": 0,
+      "row": 0,
+      "col": 0,
+      "npv": -10.87,
+      "tonnage": 1358.5979199113824,
+      "grade": 0.21943921987602616,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 1,
+      "bench": 0,
+      "row": 0,
+      "col": 1,
+      "npv": -11.8,
+      "tonnage": 1475.6223516367559,
+      "grade": 0.047088673943824766,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 2,
+      "bench": 0,
+      "row": 0,
+      "col": 2,
+      "npv": -5.02,
+      "tonnage": 628.1136326755459,
+      "grade": 0.3930321526384769,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 3,
+      "bench": 0,
+      "row": 0,
+      "col": 3,
+      "npv": 132.82,
+      "tonnage": 1912.1179866183222,
+      "grade": 1.98655367754426,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 4,
+      "bench": 0,
+      "row": 1,
+      "col": 0,
+      "npv": 169.59,
+      "tonnage": 1332.0970385927974,
+      "grade": 3.4328371624666563,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 5,
+      "bench": 0,
+      "row": 1,
+      "col": 1,
+      "npv": 81.51,
+      "tonnage": 876.5807073250104,
+      "grade": 2.5746713184506715,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 6,
+      "bench": 0,
+      "row": 1,
+      "col": 2,
+      "npv": -10.06,
+      "tonnage": 1258.0877400853738,
+      "grade": 0.3158321995610324,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 7,
+      "bench": 0,
+      "row": 1,
+      "col": 3,
+      "npv": 273.74,
+      "tonnage": 1871.7453455866373,
+      "grade": 3.906233678063691,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 8,
+      "bench": 0,
+      "row": 2,
+      "col": 0,
+      "npv": -7.73,
+      "tonnage": 966.7210037270343,
+      "grade": 0.09731935392598379,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 9,
+      "bench": 0,
+      "row": 2,
+      "col": 1,
+      "npv": 67.62,
+      "tonnage": 1619.6587438909455,
+      "grade": 1.2937263746161531,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 10,
+      "bench": 0,
+      "row": 2,
+      "col": 2,
+      "npv": -6.61,
+      "tonnage": 825.825358138152,
+      "grade": 0.483754866217105,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 11,
+      "bench": 0,
+      "row": 2,
+      "col": 3,
+      "npv": 84.35,
+      "tonnage": 1027.3656309011428,
+      "grade": 2.3025785960825855,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 12,
+      "bench": 0,
+      "row": 3,
+      "col": 0,
+      "npv": 88.88,
+      "tonnage": 1072.291218861061,
+      "grade": 2.322255763922988,
+      "is_ore": true,
+      "predecessors": []
+    },
+    {
+      "id": 13,
+      "bench": 0,
+      "row": 3,
+      "col": 1,
+      "npv": -10.66,
+      "tonnage": 1332.6781960578373,
+      "grade": 0.21857595943616537,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 14,
+      "bench": 0,
+      "row": 3,
+      "col": 2,
+      "npv": -10.66,
+      "tonnage": 1332.259801395201,
+      "grade": 0.15618332069102053,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 15,
+      "bench": 0,
+      "row": 3,
+      "col": 3,
+      "npv": -6.31,
+      "tonnage": 788.3281039302441,
+      "grade": 0.19373918951508723,
+      "is_ore": false,
+      "predecessors": []
+    },
+    {
+      "id": 16,
+      "bench": 1,
+      "row": 0,
+      "col": 0,
+      "npv": -5.6,
+      "tonnage": 699.9082024751083,
+      "grade": 0.0698762418046549,
+      "is_ore": false,
+      "predecessors": [
+        0,
+        1,
+        4,
+        5
+      ]
+    },
+    {
+      "id": 17,
+      "bench": 1,
+      "row": 0,
+      "col": 1,
+      "npv": 196.09,
+      "tonnage": 1597.8210279104387,
+      "grade": 3.3181580080068427,
+      "is_ore": true,
+      "predecessors": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 18,
+      "bench": 1,
+      "row": 0,
+      "col": 2,
+      "npv": -7.67,
+      "tonnage": 958.91577553834,
+      "grade": 0.39036451551098394,
+      "is_ore": false,
+      "predecessors": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 19,
+      "bench": 1,
+      "row": 0,
+      "col": 3,
+      "npv": 37.4,
+      "tonnage": 937.4360882431681,
+      "grade": 1.247350394008504,
+      "is_ore": true,
+      "predecessors": [
+        2,
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 20,
+      "bench": 1,
+      "row": 1,
+      "col": 0,
+      "npv": -8.52,
+      "tonnage": 1065.236106481189,
+      "grade": 0.23554810307156626,
+      "is_ore": false,
+      "predecessors": [
+        0,
+        1,
+        4,
+        5,
+        8,
+        9
+      ]
+    },
+    {
+      "id": 21,
+      "bench": 1,
+      "row": 1,
+      "col": 1,
+      "npv": -8.43,
+      "tonnage": 1053.5794006579958,
+      "grade": 0.3173591600002954,
+      "is_ore": false,
+      "predecessors": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": 22,
+      "bench": 1,
+      "row": 1,
+      "col": 2,
+      "npv": 50.98,
+      "tonnage": 836.9814014815273,
+      "grade": 1.772640313800359,
+      "is_ore": true,
+      "predecessors": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 23,
+      "bench": 1,
+      "row": 1,
+      "col": 3,
+      "npv": 63.82,
+      "tonnage": 1290.2343724695634,
+      "grade": 1.4866709530224935,
+      "is_ore": true,
+      "predecessors": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "id": 24,
+      "bench": 1,
+      "row": 2,
+      "col": 0,
+      "npv": -4.47,
+      "tonnage": 558.302741689066,
+      "grade": 0.11696974293267037,
+      "is_ore": false,
+      "predecessors": [
+        4,
+        5,
+        8,
+        9,
+        12,
+        13
+      ]
+    },
+    {
+      "id": 25,
+      "bench": 1,
+      "row": 2,
+      "col": 1,
+      "npv": 94.99,
+      "tonnage": 1594.299817672274,
+      "grade": 1.7395000248533876,
+      "is_ore": true,
+      "predecessors": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 26,
+      "bench": 1,
+      "row": 2,
+      "col": 2,
+      "npv": 195.4,
+      "tonnage": 1597.176248392865,
+      "grade": 3.3084742691405236,
+      "is_ore": true,
+      "predecessors": [
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 27,
+      "bench": 1,
+      "row": 2,
+      "col": 3,
+      "npv": 126.24,
+      "tonnage": 1000.3675038892447,
+      "grade": 3.4048652309313114,
+      "is_ore": true,
+      "predecessors": [
+        6,
+        7,
+        10,
+        11,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 28,
+      "bench": 1,
+      "row": 3,
+      "col": 0,
+      "npv": 55.88,
+      "tonnage": 1666.8312207157403,
+      "grade": 1.0881531544820537,
+      "is_ore": true,
+      "predecessors": [
+        8,
+        9,
+        12,
+        13
+      ]
+    },
+    {
+      "id": 29,
+      "bench": 1,
+      "row": 3,
+      "col": 1,
+      "npv": 59.75,
+      "tonnage": 1401.2537301240363,
+      "grade": 1.3160696929075257,
+      "is_ore": true,
+      "predecessors": [
+        8,
+        9,
+        10,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": 30,
+      "bench": 1,
+      "row": 3,
+      "col": 2,
+      "npv": 148.4,
+      "tonnage": 1335.3875306888367,
+      "grade": 3.0282252002487553,
+      "is_ore": true,
+      "predecessors": [
+        9,
+        10,
+        11,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 31,
+      "bench": 1,
+      "row": 3,
+      "col": 3,
+      "npv": 94.3,
+      "tonnage": 1556.339111742666,
+      "grade": 1.764838685273205,
+      "is_ore": true,
+      "predecessors": [
+        10,
+        11,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 32,
+      "bench": 2,
+      "row": 0,
+      "col": 0,
+      "npv": 31.28,
+      "tonnage": 941.6070825446184,
+      "grade": 1.0804797418115233,
+      "is_ore": true,
+      "predecessors": [
+        16,
+        17,
+        20,
+        21
+      ]
+    },
+    {
+      "id": 33,
+      "bench": 2,
+      "row": 0,
+      "col": 1,
+      "npv": -9.6,
+      "tonnage": 1199.7071338107496,
+      "grade": 0.4542903453538035,
+      "is_ore": false,
+      "predecessors": [
+        16,
+        17,
+        18,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": 34,
+      "bench": 2,
+      "row": 0,
+      "col": 2,
+      "npv": 253.33,
+      "tonnage": 1734.5010847589535,
+      "grade": 3.901364407512717,
+      "is_ore": true,
+      "predecessors": [
+        17,
+        18,
+        19,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 35,
+      "bench": 2,
+      "row": 0,
+      "col": 3,
+      "npv": -6.18,
+      "tonnage": 772.241561845159,
+      "grade": 0.22468075107189434,
+      "is_ore": false,
+      "predecessors": [
+        18,
+        19,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 36,
+      "bench": 2,
+      "row": 1,
+      "col": 0,
+      "npv": 185.25,
+      "tonnage": 1346.9315478003332,
+      "grade": 3.6883276689402935,
+      "is_ore": true,
+      "predecessors": [
+        16,
+        17,
+        20,
+        21,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 37,
+      "bench": 2,
+      "row": 1,
+      "col": 1,
+      "npv": 91.44,
+      "tonnage": 1495.0634827302752,
+      "grade": 1.779061197282088,
+      "is_ore": true,
+      "predecessors": [
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": 38,
+      "bench": 2,
+      "row": 1,
+      "col": 2,
+      "npv": 225.15,
+      "tonnage": 1710.223435802252,
+      "grade": 3.541165709095602,
+      "is_ore": true,
+      "predecessors": [
+        17,
+        18,
+        19,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "id": 39,
+      "bench": 2,
+      "row": 1,
+      "col": 3,
+      "npv": -9.02,
+      "tonnage": 1127.3088407024431,
+      "grade": 0.21604651988755186,
+      "is_ore": false,
+      "predecessors": [
+        18,
+        19,
+        22,
+        23,
+        26,
+        27
+      ]
+    },
+    {
+      "id": 40,
+      "bench": 2,
+      "row": 2,
+      "col": 0,
+      "npv": 94.8,
+      "tonnage": 901.3331853678669,
+      "grade": 2.8795091249754243,
+      "is_ore": true,
+      "predecessors": [
+        20,
+        21,
+        24,
+        25,
+        28,
+        29
+      ]
+    },
+    {
+      "id": 41,
+      "bench": 2,
+      "row": 2,
+      "col": 1,
+      "npv": 38.06,
+      "tonnage": 1392.7889830934228,
+      "grade": 0.933165356358056,
+      "is_ore": true,
+      "predecessors": [
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": 42,
+      "bench": 2,
+      "row": 2,
+      "col": 2,
+      "npv": 37.42,
+      "tonnage": 924.083561267062,
+      "grade": 1.2624774043713503,
+      "is_ore": true,
+      "predecessors": [
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": 43,
+      "bench": 2,
+      "row": 2,
+      "col": 3,
+      "npv": 83.73,
+      "tonnage": 1910.1441420521567,
+      "grade": 1.3458974993180357,
+      "is_ore": true,
+      "predecessors": [
+        22,
+        23,
+        26,
+        27,
+        30,
+        31
+      ]
+    },
+    {
+      "id": 44,
+      "bench": 2,
+      "row": 3,
+      "col": 0,
+      "npv": 100.2,
+      "tonnage": 1509.0985897777,
+      "grade": 1.9099833745114787,
+      "is_ore": true,
+      "predecessors": [
+        24,
+        25,
+        28,
+        29
+      ]
+    },
+    {
+      "id": 45,
+      "bench": 2,
+      "row": 3,
+      "col": 1,
+      "npv": 199.5,
+      "tonnage": 1378.7641243314802,
+      "grade": 3.8673894823726256,
+      "is_ore": true,
+      "predecessors": [
+        24,
+        25,
+        26,
+        28,
+        29,
+        30
+      ]
+    },
+    {
+      "id": 46,
+      "bench": 2,
+      "row": 3,
+      "col": 2,
+      "npv": -7.89,
+      "tonnage": 986.6583308381603,
+      "grade": 0.041364999961219284,
+      "is_ore": false,
+      "predecessors": [
+        25,
+        26,
+        27,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": 47,
+      "bench": 2,
+      "row": 3,
+      "col": 3,
+      "npv": 211.08,
+      "tonnage": 1486.0736628512905,
+      "grade": 3.801044655919945,
+      "is_ore": true,
+      "predecessors": [
+        26,
+        27,
+        30,
+        31
+      ]
+    }
+  ]
+}
